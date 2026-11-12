@@ -1,0 +1,10 @@
+*.o
+*.so
+*.dll
+.Rproj.user
+.Rhistory
+.RData
+*.Rcheck/
+*.tar.gz
+.fuse_hidden*
+.DS_Store

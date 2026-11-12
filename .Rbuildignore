@@ -1,0 +1,6 @@
+^benchmark$
+^README\.md$
+^.*\.fuse_hidden.*$
+^\.git$
+^\.github$
+^\.gitignore$

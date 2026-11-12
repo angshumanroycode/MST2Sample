@@ -1,0 +1,16 @@
+Package: MST2sample
+Type: Package
+Title: Pruned Minimum Spanning Tree Two-Sample Tests
+Version: 0.3.0
+Authors@R: person("Angshuman", "Roy", email = "angshuman_roy@iittp.ac.in",
+    role = c("aut", "cre"))
+Description: The two-sample tests S, T, S_m, T_m and C_m based on the
+    pooled Euclidean minimum spanning tree with the cross-sample edges
+    removed. The distance matrix, the minimum spanning tree, the statistics
+    over many relabelings, the exact permutation moments of the numbers of
+    isolated vertices and the exact attained p-values of S and T are computed
+    in C++.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: Rcpp, MASS, stats
+LinkingTo: Rcpp

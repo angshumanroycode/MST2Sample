@@ -1,0 +1,6 @@
+useDynLib(MST2sample, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(MASS, ginv)
+importFrom(stats, cov, runif)
+export(mst_test, mst_test_dist, perm_pvalue, mst_tree)
+S3method(print, mst_test)
